@@ -286,6 +286,15 @@
             </editorialDecl>
       </encodingDesc>
       <revisionDesc>
+         <change when="2024-10-14">
+            <p><persName>幾浦裕之</persName>
+            が，backにもteiHeaderのcolophonの奥書をabで記述し，
+            定家，為家の本奥書，為広の書写奥書の区別をsubtypeで記述した。</p>
+         </change>
+         <change when="2024-10-09">
+            <p><persName>幾浦裕之</persName>
+            が，仮名序のphr全てに@xml:idを付与した。</p>
+         </change>
          <change when="2024-09-22">
             <p><persName>幾浦裕之</persName>
             が，teiHeaderのpublicationStmt，colophon，sealDesc，editorialDeclを修正し，bodyを校正した。</p>
@@ -741,248 +750,248 @@
   <text>
       <body>
             <pb n="1-1r" facs="#p009"/>
-               <lb/><div><p n="1"><phr n="1-1">やまとうたは人のこゝろをたねとしてよろつのことの
-               <lb/>はとそなれりける</phr><phr n="1-2">世中にある人ことわさしけきも
-               <lb/>のなれは</phr><phr n="1-3">心におもふことを見るものきくものにつけ
-               <lb/>ていひいたせるなり</phr><phr n="1-4">花になくうくひす水にすむかは
-               <lb/>つのこゑをきけは</phr><phr n="1-5">いきとしいけるものいつれかうた
-               <lb/>をよまさりける</phr><phr n="1-6">ちからをもいれすしてあめつち
-               <lb/>をうこかし</phr><phr n="1-7">めに見えぬ<app><lem wit="#国">おに神</lem><rdg wit="#前"><ruby><rb>おにかみ</rb><rt>鬼神</rt></ruby></rdg></app>をもあはれとおも
-               <lb/>はせ</phr><phr n="1-8">おとこ<app><lem wit="#国">をむな</lem><rdg wit="#前">お<ruby><rb>む</rb><rt>う</rt></ruby>な</rdg></app>のなかをもやはらけ</phr><phr n="1-9">たけきものゝ
+               <lb/><div type="序" subtype="仮名序"><p n="1"><phr n="1-1" xml:id="kana1-1">やまとうたは人のこゝろをたねとしてよろつのことの
+               <lb/>はとそなれりける</phr><phr n="1-2" xml:id="kana1-2">世中にある人ことわさしけきも
+               <lb/>のなれは</phr><phr n="1-3" xml:id="kana1-3">心におもふことを見るものきくものにつけ
+               <lb/>ていひいたせるなり</phr><phr n="1-4" xml:id="kana1-4">花になくうくひす水にすむかは
+               <lb/>つのこゑをきけは</phr><phr n="1-5" xml:id="kana1-5">いきとしいけるものいつれかうた
+               <lb/>をよまさりける</phr><phr n="1-6" xml:id="kana1-6">ちからをもいれすしてあめつち
+               <lb/>をうこかし</phr><phr n="1-7" xml:id="kana1-7">めに見えぬ<app><lem wit="#国">おに神</lem><rdg wit="#前"><ruby><rb>おにかみ</rb><rt>鬼神</rt></ruby></rdg></app>をもあはれとおも
+               <lb/>はせ</phr><phr n="1-8" xml:id="kana1-8">おとこ<app><lem wit="#国">をむな</lem><rdg wit="#前">お<ruby><rb>む</rb><rt>う</rt></ruby>な</rdg></app>のなかをもやはらけ</phr><phr n="1-9" xml:id="kana1-9">たけきものゝ
                <lb/>ふの心をもなくさむるはうたなり</phr></p><p n="2"><phr n="2-1" xml:id="kana2-1">このうたあめ
-               <lb/>つちのひらけはしまりける時よりいてきにけり</phr><note type="仮名序古注" target="#kana2-1"><phr n="2-2">あまの
+               <lb/>つちのひらけはしまりける時よりいてきにけり</phr><note type="仮名序古注" target="#kana2-1"><phr n="2-2" xml:id="kana2-2">あまの
                <lb/>うきは
                <lb/>しのしたにて<persName corresp="#伊弉冉尊">め神</persName><persName corresp="#伊弉諾尊">を神</persName>となり
                <lb/>たまへることをいへるうた也</phr></note>
                <lb/><phr n="2-3" xml:id="kana2-3">しかあれとも世に<app><lem wit="#国">つたはる</lem><rdg wit="#前">つたはれる</rdg></app>
                <lb/>ことはひさかたのあめにしては<persName corresp="#下照姫">したてるひめ</persName>にはしまり</phr>
             <pb n="1-1v" facs="#p010"/>
-               <lb/><note type="仮名序古注" target="#kana2-3"><phr n="2-4"><persName corresp="#下照姫">したてるひめ</persName>とは<persName corresp="#天稚彦">あめわかみこ</persName>のめなり</phr><phr n="2-5">せうとの神のかたち<app><lem wit="#国">をかたにゝ</lem><rdg wit="#前">を<ruby><rb>かた</rb><rt>かみ</rt></ruby>に</rdg></app>うつりてかゝやくを
-               <lb/>よめるえひすうたなるへし</phr><phr n="2-6">これらはもしのかすもさたまらす</phr><phr n="2-7">哥のやうにも
+               <lb/><note type="仮名序古注" target="#kana2-3"><phr n="2-4" xml:id="kana2-4"><persName corresp="#下照姫">したてるひめ</persName>とは<persName corresp="#天稚彦">あめわかみこ</persName>のめなり</phr><phr n="2-5" xml:id="kana2-5">せうとの神のかたち<app><lem wit="#国">をかたにゝ</lem><rdg wit="#前">を<ruby><rb>かた</rb><rt>かみ</rt></ruby>に</rdg></app>うつりてかゝやくを
+               <lb/>よめるえひすうたなるへし</phr><phr n="2-6" xml:id="kana2-6">これらはもしのかすもさたまらす</phr><phr n="2-7" xml:id="kana2-7">哥のやうにも
                <lb/>あらぬこと
                <lb/>ともなり</phr></note>
                <lb/><phr n="2-8" xml:id="kana2-8">あらかねのつちにしては<persName corresp="#素戔嗚尊">すさのをのみこと</persName>
-               <lb/>よりそおこりける</phr><phr n="2-9">ちはやふる神世には<app><lem wit="#国">うたの</lem><rdg wit="#前">哥は</rdg></app>もし
+               <lb/>よりそおこりける</phr><phr n="2-9" xml:id="kana2-9">ちはやふる神世には<app><lem wit="#国">うたの</lem><rdg wit="#前">哥は</rdg></app>もし
                <lb/>もさたまらすすなほにして事の心わきかたかりけら
                <lb/>し</phr><phr n="2-10" xml:id="kana2-10">人の世と<app><lem wit="#国">なりて</lem><rdg wit="#前">なりてよりそ</rdg></app><persName corresp="#素戔嗚尊">すさのをのみこと</persName>よりそみそ
-               <lb/>もしあまりひともしはよみける</phr><note type="仮名序古注" target="#kana2-10"><phr n="2-11"><persName corresp="#素戔嗚尊">すさのをのみこと</persName>は<persName corresp="#天照大神">あま
+               <lb/>もしあまりひともしはよみける</phr><note type="仮名序古注" target="#kana2-10"><phr n="2-11" xml:id="kana2-11"><persName corresp="#素戔嗚尊">すさのをのみこと</persName>は<persName corresp="#天照大神">あま
                <lb/>てるおほむ神</persName>のこのかみなり</phr>
-               <lb/><phr n="2-12">女とすみたまはむとていつものくにゝ宮つくりしたまふ時にその所にやい
-               <lb/>ろのくものたつを見てよみたまへる也</phr><l resp="#素戔嗚尊"><phr n="2-13">やくも立いつもやへかきつまこめにやへかきつくるそのや
+               <lb/><phr n="2-12" xml:id="kana2-12">女とすみたまはむとていつものくにゝ宮つくりしたまふ時にその所にやい
+               <lb/>ろのくものたつを見てよみたまへる也</phr><l resp="#素戔嗚尊"><phr n="2-13" xml:id="kana2-13">やくも立いつもやへかきつまこめにやへかきつくるそのや
                <lb/>へかき
                <lb/>を</phr></l></note>
-               <lb/><phr n="2-14">かくてそ花をめてとりをうらやみかすみをあはれ
+               <lb/><phr n="2-14" xml:id="kana2-14">かくてそ花をめてとりをうらやみかすみをあはれ
                <lb/>ひつゆをかなしふ心ことはおほくさま〳〵になりに
-               <lb/>ける</phr><phr n="2-15">とをき所もいてたつあしもとよりはしま
+               <lb/>ける</phr><phr n="2-15" xml:id="kana2-15">とをき所もいてたつあしもとよりはしま
                <lb/>りて年月をわたりたかき山もふもとのちりひ
             <pb n="1-2r" facs="#p010"/>
                <lb/>ちよりなりてあまくもたなひくまておひのほれること
-               <lb/>くに</phr><phr n="2-16">このうたもかくのことくなるへし</phr><phr n="2-17" xml:id="kana2-17">なにはつのうた
+               <lb/>くに</phr><phr n="2-16" xml:id="kana2-16">このうたもかくのことくなるへし</phr><phr n="2-17" xml:id="kana2-17">なにはつのうた
                <lb/>はみかとのおほむはしめなり</phr>
-               <lb/><note type="仮名序古注" target="#kana2-17"><phr n="2-18"><persName corresp="#仁徳天皇">おほさゝきのみかと</persName>のなにはつ
-               <lb/>にてみこときこえける時</phr><phr n="2-19">東宮を
-               <lb/>たかひにゆつりてくらゐにつきたまはて三とせになりにけれは</phr><phr n="2-20"><persName corresp="#王仁">王仁</persName>といふ人の
-               <lb/>いふかり思てよみてたてまつりけるうた也</phr><phr n="2-21">この花は梅花をいふなるへし</phr></note>
+               <lb/><note type="仮名序古注" target="#kana2-17"><phr n="2-18" xml:id="kana2-18"><persName corresp="#仁徳天皇">おほさゝきのみかと</persName>のなにはつ
+               <lb/>にてみこときこえける時</phr><phr n="2-19" xml:id="kana2-19">東宮を
+               <lb/>たかひにゆつりてくらゐにつきたまはて三とせになりにけれは</phr><phr n="2-20" xml:id="kana2-20"><persName corresp="#王仁">王仁</persName>といふ人の
+               <lb/>いふかり思てよみてたてまつりけるうた也</phr><phr n="2-21" xml:id="kana2-21">この花は梅花をいふなるへし</phr></note>
                <lb/><phr n="2-22" xml:id="kana2-22">あさか
                <lb/>やまのことはゝ<persName corresp="#采女">うねめ</persName>のたはふれよりよみて</phr>
-               <lb/><note type="仮名序古注" target="#kana2-22"><phr n="2-23"><persName corresp="#橘諸兄">かつらきの
+               <lb/><note type="仮名序古注" target="#kana2-22"><phr n="2-23" xml:id="kana2-23"><persName corresp="#橘諸兄">かつらきの
                <lb/>おほきみ</persName>を
-               <lb/>みちのおくへつかはしたりけるに</phr><phr n="2-24">くにのつかさ事おろそか也とてまうけなとしたり
-               <lb/>けれとすさましかりけれは</phr><phr n="2-25"><persName corresp="#采女">うねめなりける女</persName>のかはらけとりてよめるなり</phr><phr n="2-26">これに
-               <lb/>そ<persName corresp="#橘諸兄">おほきみ</persName>の心とけにける</phr><l resp="#采女"><phr n="2-27">あさか山かけさへ
+               <lb/>みちのおくへつかはしたりけるに</phr><phr n="2-24" xml:id="kana2-24">くにのつかさ事おろそか也とてまうけなとしたり
+               <lb/>けれとすさましかりけれは</phr><phr n="2-25" xml:id="kana2-25"><persName corresp="#采女">うねめなりける女</persName>のかはらけとりてよめるなり</phr><phr n="2-26" xml:id="kana2-26">これに
+               <lb/>そ<persName corresp="#橘諸兄">おほきみ</persName>の心とけにける</phr><l resp="#采女"><phr n="2-27" xml:id="kana2-27">あさか山かけさへ
                <lb/>見ゆる山の井のあさくは人をおもふものかは</phr></l></note>
-               <lb/><phr n="2-28">このふたうたは<app><lem wit="#国">うた</lem><rdg wit="#前"><ruby><rb>哥</rb><rt>ウタ</rt></ruby></rdg></app>
+               <lb/><phr n="2-28" xml:id="kana2-28">このふたうたは<app><lem wit="#国">うた</lem><rdg wit="#前"><ruby><rb>哥</rb><rt>ウタ</rt></ruby></rdg></app>
                <lb/>のちゝはゝのやうにてそてならふ人のはしめにもしけ
-               <lb/>る</phr></p><p n="3"><phr n="3-1">そも〳〵うたのさまむつなり</phr><phr n="3-2">からのうたにもかく
-               <lb/>そあるへき</phr><phr n="3-3">そのむくさのひとつにはそへうた</phr><phr n="3-4"><persName corresp="#仁徳天皇">おほさゝき
+               <lb/>る</phr></p><p n="3"><phr n="3-1" xml:id="kana3-1">そも〳〵うたのさまむつなり</phr><phr n="3-2" xml:id="kana3-2">からのうたにもかく
+               <lb/>そあるへき</phr><phr n="3-3" xml:id="kana3-3">そのむくさのひとつにはそへうた</phr><phr n="3-4" xml:id="kana3-4"><persName corresp="#仁徳天皇">おほさゝき
                <lb/>のみかと</persName>をそへたてまつれるうた</phr>
-               <lb/><l resp="#王仁"><phr n="3-5">なにはつにさくやこの花ふゆこもりいまははる
+               <lb/><l resp="#王仁"><phr n="3-5" xml:id="kana3-5">なにはつにさくやこの花ふゆこもりいまははる
             <pb n="1-2v" facs="#p011"/>
-               <lb/>へとさくやこのはな</phr></l><phr n="3-6">といへるなるへし</phr>
-               <lb/><phr n="3-7">ふたつには<app><lem wit="#国">かそへうた</lem><rdg wit="#前">か<ruby><rb>そ</rb><rt>ス</rt></ruby>へうた</rdg></app></phr>
+               <lb/>へとさくやこのはな</phr></l><phr n="3-6" xml:id="kana3-6">といへるなるへし</phr>
+               <lb/><phr n="3-7" xml:id="kana3-7">ふたつには<app><lem wit="#国">かそへうた</lem><rdg wit="#前">か<ruby><rb>そ</rb><rt>ス</rt></ruby>へうた</rdg></app></phr>
                <lb/><l><phr n="3-8" xml:id="kana3-8">さく花に思ひつくみのあちきなさ身にいたつ
-               <lb/>きのいるもしらすて</phr></l><phr n="3-9">といへるなるへし</phr>
-               <lb/><note type="仮名序古注" target="#kana3-8"><phr n="3-10">これはたゝ事にい
+               <lb/>きのいるもしらすて</phr></l><phr n="3-9" xml:id="kana3-9">といへるなるへし</phr>
+               <lb/><note type="仮名序古注" target="#kana3-8"><phr n="3-10" xml:id="kana3-10">これはたゝ事にい
                <lb/>ひてものにたとへなとも
-               <lb/>せぬ<app><lem wit="#国">物也</lem><rdg wit="#前"><ruby><rb>事</rb><rt>モノ</rt></ruby>なり</rdg></app></phr><phr n="3-11">このうたいかにいへるにかあらむ</phr><phr n="3-12">その心えかたし</phr><phr n="3-13">いつゝにたゝことうた
+               <lb/>せぬ<app><lem wit="#国">物也</lem><rdg wit="#前"><ruby><rb>事</rb><rt>モノ</rt></ruby>なり</rdg></app></phr><phr n="3-11" xml:id="kana3-11">このうたいかにいへるにかあらむ</phr><phr n="3-12" xml:id="kana3-12">その心えかたし</phr><phr n="3-13" xml:id="kana3-13">いつゝにたゝことうた
                <lb/>といへるなむこれにはかなふへき</phr></note>
-               <lb/><phr n="3-14">みつには<app><lem wit="#国">なすらへうた</lem><rdg wit="#前">な<ruby><rb>そ</rb><rt>ス</rt></ruby>らへうた</rdg></app></phr>
+               <lb/><phr n="3-14" xml:id="kana3-14">みつには<app><lem wit="#国">なすらへうた</lem><rdg wit="#前">な<ruby><rb>そ</rb><rt>ス</rt></ruby>らへうた</rdg></app></phr>
                <lb/><l><phr n="3-15" xml:id="kana3-15">きみにけさあしたのしものおきていなはこひしき
-               <lb/>ことにきえやわたらむ</phr></l><phr n="3-16">といへるなるへし</phr><note type="仮名序古注" target="#kana3-15"><phr n="3-17">これはもの
+               <lb/>ことにきえやわたらむ</phr></l><phr n="3-16" xml:id="kana3-16">といへるなるへし</phr><note type="仮名序古注" target="#kana3-15"><phr n="3-17" xml:id="kana3-17">これはもの
                <lb/>にもなす
-               <lb/>らへてそれかやうになむあるとやうにいふ也</phr><phr n="3-18">このうたよくかなへりとも見
-               <lb/>えす</phr><l><phr n="3-19">たらちめのおやのかふこのまゆこもりいふせくもあるかいもにあ
-               <lb/>はすて</phr></l><phr n="3-20">かやうなるやこれには
+               <lb/>らへてそれかやうになむあるとやうにいふ也</phr><phr n="3-18" xml:id="kana3-18">このうたよくかなへりとも見
+               <lb/>えす</phr><l><phr n="3-19" xml:id="kana3-19">たらちめのおやのかふこのまゆこもりいふせくもあるかいもにあ
+               <lb/>はすて</phr></l><phr n="3-20" xml:id="kana3-20">かやうなるやこれには
                <lb/>かなふへからむ</phr></note>
-               <lb/><phr n="3-21">よつにはたとへうた</phr>
+               <lb/><phr n="3-21" xml:id="kana3-21">よつにはたとへうた</phr>
                <lb/><l><phr n="3-22" xml:id="kana3-22">わかこひはよむともつきしありそ海のはまのま
             <pb n="1-3r" facs="#p011"/>
-               <lb/>さこはよみつくすとも</phr></l><phr n="3-23">といへるなるへし</phr>
-               <lb/><note type="仮名序古注" target="#kana3-22"><phr n="3-24">これはよ
+               <lb/>さこはよみつくすとも</phr></l><phr n="3-23" xml:id="kana3-23">といへるなるへし</phr>
+               <lb/><note type="仮名序古注" target="#kana3-22"><phr n="3-24" xml:id="kana3-24">これはよ
                <lb/>ろつのくさ
-               <lb/>木とりけたものにつけて心を見する也</phr><phr n="3-25">この哥はかくれたる所なむなき</phr>
-               <lb/><phr n="3-26">されとはしめのそへうたとおなしやうなれはすこしさまをかへたるなるへし</phr>
-               <lb/><l><phr n="3-27">すまのあまのしほやくけふり風をいたみおもはぬ
-               <lb/>方にたなひきにけり</phr></l><phr n="3-28">このうたなとやかなふへからむ</phr></note>
-               <lb/><phr n="3-29">いつゝにはたゝことうた</phr>
+               <lb/>木とりけたものにつけて心を見する也</phr><phr n="3-25" xml:id="kana3-25">この哥はかくれたる所なむなき</phr>
+               <lb/><phr n="3-26" xml:id="kana3-26">されとはしめのそへうたとおなしやうなれはすこしさまをかへたるなるへし</phr>
+               <lb/><l><phr n="3-27" xml:id="kana3-27">すまのあまのしほやくけふり風をいたみおもはぬ
+               <lb/>方にたなひきにけり</phr></l><phr n="3-28" xml:id="kana3-28">このうたなとやかなふへからむ</phr></note>
+               <lb/><phr n="3-29" xml:id="kana3-29">いつゝにはたゝことうた</phr>
                <lb/><l><phr n="3-30" xml:id="kana3-30">いつはりのなき世なりせはいかはかり人のこ
-               <lb/>とのはうれしからまし</phr></l><phr n="3-31">といへるなるへし</phr>
-               <lb/><note type="仮名序古注" target="#kana3-30"><phr n="3-32">これは事のとゝのほりたゝしきをいふ也</phr><phr n="3-33">このうたの心さらにかなは
-               <lb/>す</phr><phr n="3-34">とめうたとやいふへからむ</phr><l><phr n="3-35">山さくらあくまていろを見つるか
+               <lb/>とのはうれしからまし</phr></l><phr n="3-31" xml:id="kana3-31">といへるなるへし</phr>
+               <lb/><note type="仮名序古注" target="#kana3-30"><phr n="3-32" xml:id="kana3-32">これは事のとゝのほりたゝしきをいふ也</phr><phr n="3-33" xml:id="kana3-33">このうたの心さらにかなは
+               <lb/>す</phr><phr n="3-34" xml:id="kana3-34">とめうたとやいふへからむ</phr><l><phr n="3-35" xml:id="kana3-35">山さくらあくまていろを見つるか
                <lb/>な花ちるへくも
                <lb/>風ふかぬ世に</phr></l></note>
-               <lb/><phr n="3-36">むつにはいはひうた</phr>
+               <lb/><phr n="3-36" xml:id="kana3-36">むつにはいはひうた</phr>
                <lb/><l><phr n="3-37" xml:id="kana3-37">このとのはむへも<app><lem wit="#国">とみけり</lem><rdg wit="#前">と<ruby><rb>ひ</rb><rt>ミ</rt></ruby>けり</rdg></app>さきくさのみつはよつ
-               <lb/>はにとのつくり<app><lem wit="#国">せり</lem><rdg wit="#前"><ruby><rb>せ</rb><rt>け</rt></ruby>り</rdg></app></phr></l><phr n="3-38"><app><lem wit="#国">といへる</lem><rdg wit="#前">いへることのたくひ</rdg></app>なるへし</phr>
-               <lb/><note type="仮名序古注" target="#kana3-37"><phr n="3-39">これは世をほめて神につくる也</phr><phr n="3-40">このうたいはひうたとは見え
-               <lb/>すなむある</phr><l><phr n="3-41">かすかのにわかなつみつゝよろつ世をいはふ心は<app><lem wit="#国">神そ</lem><rdg wit="#前">かみや</rdg></app>
+               <lb/>はにとのつくり<app><lem wit="#国">せり</lem><rdg wit="#前"><ruby><rb>せ</rb><rt>け</rt></ruby>り</rdg></app></phr></l><phr n="3-38" xml:id="kana3-38"><app><lem wit="#国">といへる</lem><rdg wit="#前">いへることのたくひ</rdg></app>なるへし</phr>
+               <lb/><note type="仮名序古注" target="#kana3-37"><phr n="3-39" xml:id="kana3-39">これは世をほめて神につくる也</phr><phr n="3-40" xml:id="kana3-40">このうたいはひうたとは見え
+               <lb/>すなむある</phr><l><phr n="3-41" xml:id="kana3-41">かすかのにわかなつみつゝよろつ世をいはふ心は<app><lem wit="#国">神そ</lem><rdg wit="#前">かみや</rdg></app>
             <pb n="1-3v" facs="#p012"/>
-               <lb/>しるらむ</phr></l><phr n="3-42">これらやすこしかなふへからむ</phr><phr n="3-43">おほよそむくさにわかれ
+               <lb/>しるらむ</phr></l><phr n="3-42" xml:id="kana3-42">これらやすこしかなふへからむ</phr><phr n="3-43">おほよそむくさにわかれ
                <lb/>むことはえあるましき事になむ</phr></note></p>
-               <lb/><p n="4"><phr n="4-1">今の<app><lem wit="#国">世中</lem><rdg wit="#前">よの中</rdg></app>いろにつき人の心花になりにけるより
-               <lb/>あたなるうたはかなきことのみいてくれは</phr><phr n="4-2">いろこのみ
+               <lb/><p n="4"><phr n="4-1" xml:id="kana4-1">今の<app><lem wit="#国">世中</lem><rdg wit="#前">よの中</rdg></app>いろにつき人の心花になりにけるより
+               <lb/>あたなるうたはかなきことのみいてくれは</phr><phr n="4-2" xml:id="kana4-2">いろこのみ
                <lb/>の<app><lem wit="#国">いへに</lem><rdg wit="#前">いへにのみ</rdg></app>むもれ木の人しれぬことゝなりてまめな
                <lb/>るところには花すゝきほにいたすへき事にもあ
-               <lb/>らすなりにたり</phr><phr n="4-3">そのはしめをおもへはかゝるへく
-               <lb/>なむあらぬ</phr><phr n="4-4">いにしへの<app><lem wit="#国">世々のみかと</lem><rdg wit="#前">よゝのかみかと</rdg></app>春の花のあし
+               <lb/>らすなりにたり</phr><phr n="4-3" xml:id="kana4-3">そのはしめをおもへはかゝるへく
+               <lb/>なむあらぬ</phr><phr n="4-4" xml:id="kana4-4">いにしへの<app><lem wit="#国">世々のみかと</lem><rdg wit="#前">よゝのかみかと</rdg></app>春の花のあし
                <lb/>た秋の月の夜ことにさふらふ人〳〵をめして
-               <lb/>ことにつけつゝうたをたてまつらしめ給</phr><phr n="4-5">あるは
+               <lb/>ことにつけつゝうたをたてまつらしめ給</phr><phr n="4-5" xml:id="kana4-5">あるは
                <lb/>花をそふとてたよりなきところにまとひあるは月
                <lb/>を思ふとてしるへなきやみにたとれる心々を見たま
-               <lb/>ひて</phr><phr n="4-6">さかしをろかなりとしろしめしけむ</phr><phr n="4-7">しかあるの
+               <lb/>ひて</phr><phr n="4-6" xml:id="kana4-6">さかしをろかなりとしろしめしけむ</phr><phr n="4-7" xml:id="kana4-7">しかあるの
             <pb n="1-4r" facs="#p012"/>
-               <lb/>みにあらす</phr><phr n="4-8">さゝれいしにたとへつくは山にかけてき
-               <lb/>みをねかひ</phr><phr n="4-9">よろこひ身にすきたのしひ心にあまり</phr>
-               <lb/><phr n="4-10">ふしのけふりによそへて人をこひ松虫のねに友を
-               <lb/>しのひ</phr><phr n="4-11">高砂すみの江のまつもあひをひのやうに
-               <lb/>おほえ</phr><phr n="4-12">おとこ山のむかしを思いてゝをみなへしのひと
-               <lb/>ゝきをくねるにも哥をいひてそなくさめける</phr><phr n="4-13">又は
+               <lb/>みにあらす</phr><phr n="4-8" xml:id="kana4-8">さゝれいしにたとへつくは山にかけてき
+               <lb/>みをねかひ</phr><phr n="4-9" xml:id="kana4-9">よろこひ身にすきたのしひ心にあまり</phr>
+               <lb/><phr n="4-10" xml:id="kana4-10">ふしのけふりによそへて人をこひ松虫のねに友を
+               <lb/>しのひ</phr><phr n="4-11" xml:id="kana4-11">高砂すみの江のまつもあひをひのやうに
+               <lb/>おほえ</phr><phr n="4-12" xml:id="kana4-12">おとこ山のむかしを思いてゝをみなへしのひと
+               <lb/>ゝきをくねるにも哥をいひてそなくさめける</phr><phr n="4-13" xml:id="kana4-13">又は
                <lb/>るのあしたに花のちるを見秋のゆふくれにこのは
-               <lb/>のおつるをきゝ</phr><phr n="4-14">あるはとしことにかゝみのかけに見
+               <lb/>のおつるをきゝ</phr><phr n="4-14" xml:id="kana4-14">あるはとしことにかゝみのかけに見
                <lb/>ゆる雪と浪とをなけき草のつゆ水のあわを
-               <lb/>見てわか身をおとろき</phr><phr n="4-15">あるはきのふはさかえをこり
+               <lb/>見てわか身をおとろき</phr><phr n="4-15" xml:id="kana4-15">あるはきのふはさかえをこり
                <lb/>て時をうしなひ<app><lem wit="#国">世にわひ</lem><rdg wit="#前">よに<ruby><rb>わひ</rb><rt>あひ歟</rt></ruby></rdg></app>したしかりしもう
-               <lb/>とくなり</phr><phr n="4-16">あるは松山の浪をかけ野なかの<app><lem wit="#国">水</lem><rdg wit="#前">しみつ</rdg></app>をくみ
+               <lb/>とくなり</phr><phr n="4-16" xml:id="kana4-16">あるは松山の浪をかけ野なかの<app><lem wit="#国">水</lem><rdg wit="#前">しみつ</rdg></app>をくみ
             <pb n="1-4v" facs="#p013"/>
                <lb/>秋はきのしたはをなかめあかつきのしきのはねかき
-               <lb/>をかそへ</phr><phr n="4-17">あるはくれ竹のうきふしを人にいひよしの
-               <lb/>河をひきて<app><lem wit="#国">世中</lem><rdg wit="#前">よのなか</rdg></app>をうらみきつるに</phr><phr n="4-18">今はふしの山も
+               <lb/>をかそへ</phr><phr n="4-17" xml:id="kana4-17">あるはくれ竹のうきふしを人にいひよしの
+               <lb/>河をひきて<app><lem wit="#国">世中</lem><rdg wit="#前">よのなか</rdg></app>をうらみきつるに</phr><phr n="4-18" xml:id="kana4-18">今はふしの山も
                <lb/>けふりたゝすなりなからのはしもつくるなりときく
                <lb/>人は<app><lem wit="#国">うた</lem><rdg wit="#前"><ruby><rb>うた</rb><rt>歌</rt></ruby></rdg></app>にのみそ<app><lem wit="#国">心を</lem><rdg wit="#前">こゝろをは</rdg></app>なくさめける</phr></p><p n="5"><phr n="5-1" xml:id="kana5-1">いにしへよりか
                <lb/>くつたはる<app><lem wit="#国">うちにも</lem><rdg wit="#前">うちに</rdg></app><persName corresp="#平城天皇"><app><lem wit="#国">ならの御時</lem><rdg wit="#前">ならの<ruby><rb>おほん</rb><rt>御</rt></ruby>時</rdg></app></persName><note type="勘物" style="margin-top: 1em" resp="#藤原定家" target="#kana5-1"><persName>文武天皇</persName></note>よりそひろまりに
-               <lb/>ける</phr><phr n="5-2">かの<app><lem wit="#国">おほむ世</lem><rdg wit="#前"><ruby><rb>おほん</rb><rt>御</rt></ruby>よ</rdg></app>や哥の心をしろしめしたりけむ</phr>
+               <lb/>ける</phr><phr n="5-2" xml:id="kana5-2">かの<app><lem wit="#国">おほむ世</lem><rdg wit="#前"><ruby><rb>おほん</rb><rt>御</rt></ruby>よ</rdg></app>や哥の心をしろしめしたりけむ</phr>
                <lb/><phr n="5-3" xml:id="kana5-3">かのおほむ時に<persName corresp="#柿本人麿">おほきみつのくらゐかきのもとの
-               <lb/>人まろ</persName>なむうたのひしりなりける</phr><phr n="5-4">これはきみも
-               <lb/>人も身をあはせたりといふなるへし</phr><phr n="5-5">秋のゆふへ龍田
+               <lb/>人まろ</persName>なむうたのひしりなりける</phr><phr n="5-4" xml:id="kana5-4">これはきみも
+               <lb/>人も身をあはせたりといふなるへし</phr><phr n="5-5" xml:id="kana5-5">秋のゆふへ龍田
                <lb/>河になかるゝ<app><lem wit="#国">もみちをは</lem><rdg wit="#前">もみちは</rdg></app><persName corresp="#平城天皇">みかと</persName>の<app><lem wit="#国">おほむめ</lem><rdg wit="#前"><ruby><rb>御</rb><rt>オホン</rt></ruby>め</rdg></app>に錦と
-               <lb/><app><lem wit="#国">見たまひ</lem><rdg wit="#前">みえ</rdg></app></phr><phr n="5-6">春のあした<app><lem wit="#国">よしのゝ山</lem><rdg wit="#前">よしの山</rdg></app>のさくらは<persName corresp="#柿本人麿">人ま
+               <lb/><app><lem wit="#国">見たまひ</lem><rdg wit="#前">みえ</rdg></app></phr><phr n="5-6" xml:id="kana5-6">春のあした<app><lem wit="#国">よしのゝ山</lem><rdg wit="#前">よしの山</rdg></app>のさくらは<persName corresp="#柿本人麿">人ま
             <pb n="1-5r" facs="#p013"/>
                <lb/>ろ</persName>か<app><lem wit="#国">心には</lem><rdg wit="#前">めに</rdg></app>くも<app><lem wit="#国">かとのみなむ</lem><rdg wit="#前">かとそ</rdg></app>おほえける</phr><phr n="5-7" xml:id="kana5-7">又<persName corresp="#山辺赤人">山の邊
-               <lb/>のあか人</persName>といふ人ありけり</phr><phr n="5-8">うたに<app><lem wit="#国">あやしく</lem><rdg wit="#前">あやし<ruby><rb>う</rb><rt>ク</rt></ruby></rdg></app>たへなりけり</phr>
-               <lb/><phr n="5-9"><persName corresp="#柿本人麿">人まろ</persName>は<persName corresp="#山辺赤人">赤人</persName>かゝみにたゝむ事かたく<persName corresp="#山辺赤人">あか人</persName>は<persName corresp="#柿本人麿">人まろ</persName>
-               <lb/>かしもにたゝむことかたくなむありける</phr><note type="仮名序古注" target="#kana5-1"><phr n="5-10"><persName corresp="#平城天皇">ならのみかと</persName>の御
-               <lb/>うた</phr><l resp="#平城天皇"><phr n="5-11">龍田河もみ
-               <lb/>ちみたれて流めりわたらはにしきなかやたえなむ</phr></l></note><note type="仮名序古注" target="#kana5-3"><phr n="5-12"><persName corresp="#柿本人麿">人まろ</persName></phr><l resp="#柿本人麿"><phr n="5-13"><app><lem wit="#国">梅花</lem><rdg wit="#前">むめの花</rdg></app>それ
-               <lb/>とも見えす久方のあまきる雪のなへてふれゝは</phr></l><l resp="#柿本人麿"><phr n="5-14">ほの〳〵とあかしのうらの
-               <lb/>あさきりにしまかくれ行舟をしそ思</phr></l></note><note type="仮名序古注" target="#kana5-7"><phr n="5-15"><persName resp="#山部赤人">赤人</persName></phr><l resp="#山辺赤人"><phr n="5-16">春のゝにすみれつみにとこ
-               <lb/>しわれそ野をなつかしみひと夜ねにける</phr></l><l resp="#山辺赤人"><phr n="5-17">わかのうらにしほみちくれは
+               <lb/>のあか人</persName>といふ人ありけり</phr><phr n="5-8" xml:id="kana5-8">うたに<app><lem wit="#国">あやしく</lem><rdg wit="#前">あやし<ruby><rb>う</rb><rt>ク</rt></ruby></rdg></app>たへなりけり</phr>
+               <lb/><phr n="5-9" xml:id="kana5-9"><persName corresp="#柿本人麿">人まろ</persName>は<persName corresp="#山辺赤人">赤人</persName>かゝみにたゝむ事かたく<persName corresp="#山辺赤人">あか人</persName>は<persName corresp="#柿本人麿">人まろ</persName>
+               <lb/>かしもにたゝむことかたくなむありける</phr><note type="仮名序古注" target="#kana5-1"><phr n="5-10" xml:id="kana5-10"><persName corresp="#平城天皇">ならのみかと</persName>の御
+               <lb/>うた</phr><l resp="#平城天皇"><phr n="5-11" xml:id="kana5-11">龍田河もみ
+               <lb/>ちみたれて流めりわたらはにしきなかやたえなむ</phr></l></note><note type="仮名序古注" target="#kana5-3"><phr n="5-12" xml:id="kana5-12"><persName corresp="#柿本人麿">人まろ</persName></phr><l resp="#柿本人麿"><phr n="5-13" xml:id="kana5-13"><app><lem wit="#国">梅花</lem><rdg wit="#前">むめの花</rdg></app>それ
+               <lb/>とも見えす久方のあまきる雪のなへてふれゝは</phr></l><l resp="#柿本人麿"><phr n="5-14" xml:id="kana5-14">ほの〳〵とあかしのうらの
+               <lb/>あさきりにしまかくれ行舟をしそ思</phr></l></note><note type="仮名序古注" target="#kana5-7"><phr n="5-15" xml:id="kana5-15"><persName resp="#山部赤人">赤人</persName></phr><l resp="#山辺赤人"><phr n="5-16" xml:id="kana5-16">春のゝにすみれつみにとこ
+               <lb/>しわれそ野をなつかしみひと夜ねにける</phr></l><l resp="#山辺赤人"><phr n="5-17" xml:id="kana5-17">わかのうらにしほみちくれは
                <lb/>かたをなみあしへをさして
                <lb/>たつなきわたる</phr></l></note>
-               <lb/><phr n="5-18">この人〳〵をゝきて又すくれたる人もくれ竹の<app><lem wit="#国">世々に</lem><rdg wit="#前">よに</rdg></app>
+               <lb/><phr n="5-18" xml:id="kana5-18">この人〳〵をゝきて又すくれたる人もくれ竹の<app><lem wit="#国">世々に</lem><rdg wit="#前">よに</rdg></app>
                <lb/>きこえかたいとのより〳〵に<app><lem wit="#国">たえすそ</lem><rdg wit="#前">たえかたくなむ</rdg></app>ありける</phr><phr n="5-19" xml:id="kana5-19"><app><lem wit="#国">これよ
                <lb/>り</lem><rdg wit="#前">かゝりける</rdg></app>さき<note type="勘物" style="margin-top: 1em" resp="#藤原定家" target="#kana5-19">さき不審未決</note>のうたを<app><lem wit="#国">あつめて</lem><rdg wit="#前">あはせて</rdg></app>なむ万えふしふとなつ
-               <lb/>けられたり<app><lem wit="#国">ける</lem><rdg wit="#前"><ruby><rb>た</rb><rt>ケ</rt></ruby>る</rdg></app></phr><phr n="5-20">こゝにいにしへのことをもうたの心を
-               <lb/>もしれる人わつかにひとりふたり<app><lem wit="#国">なりき</lem><rdg wit="#前">なり</rdg></app></phr><phr n="5-21"><app><lem wit="#国">しかあれと</lem><rdg wit="#前"></rdg></app>
+               <lb/>けられたり<app><lem wit="#国">ける</lem><rdg wit="#前"><ruby><rb>た</rb><rt>ケ</rt></ruby>る</rdg></app></phr><phr n="5-20" xml:id="kana5-20">こゝにいにしへのことをもうたの心を
+               <lb/>もしれる人わつかにひとりふたり<app><lem wit="#国">なりき</lem><rdg wit="#前">なり</rdg></app></phr><phr n="5-21" xml:id="kana5-21"><app><lem wit="#国">しかあれと</lem><rdg wit="#前"></rdg></app>
             <pb n="1-5v" facs="#p014"/>
-               <lb/>これかれえたる所えぬ所たかひになむある</phr><phr n="5-22"><persName corresp="#平城天皇"><app><lem wit="#国">かの御時</lem><rdg wit="#前">かのとし</rdg></app></persName>
+               <lb/>これかれえたる所えぬ所たかひになむある</phr><phr n="5-22" xml:id="kana5-22"><persName corresp="#平城天皇"><app><lem wit="#国">かの御時</lem><rdg wit="#前">かのとし</rdg></app></persName>
                <lb/>より<persName corresp="#醍醐天皇">このかた</persName>としはもゝとせあまり世はとつきにな
-               <lb/>むなりにける</phr><phr n="5-23">いにしへの事をもうたをもしれる
-               <lb/>人よむ人おほからす</phr><phr n="5-24">いまこのことをいふに</phr><phr n="5-25">つかさ
+               <lb/>むなりにける</phr><phr n="5-23" xml:id="kana5-23">いにしへの事をもうたをもしれる
+               <lb/>人よむ人おほからす</phr><phr n="5-24" xml:id="kana5-24">いまこのことをいふに</phr><phr n="5-25" xml:id="kana5-25">つかさ
                <lb/>くらゐたかき人をはたやすきやうなれはいれす</phr>
-               <lb/></p><p n="6"><phr n="6-1">そのほかにちかき世にその名きこえたる人は</phr>
+               <lb/></p><p n="6"><phr n="6-1" xml:id="kana6-1">そのほかにちかき世にその名きこえたる人は</phr>
                <lb/><phr n="6-2" xml:id="kana6-2">すなはち<persName corresp="#遍昭"><app><lem wit="#国">僧正遍昭</lem><rdg wit="#前">へせう</rdg></app></persName>は<app><lem wit="#国">うたのさま</lem><rdg wit="#前">哥のこゝろ</rdg></app>はえたれともま
-               <lb/>ことすくなし</phr><phr n="6-3">たとへはゑにかけるをうなを<app><lem wit="#国">見て</lem><rdg wit="#前">おもひて</rdg></app>い
+               <lb/>ことすくなし</phr><phr n="6-3" xml:id="kana6-3">たとへはゑにかけるをうなを<app><lem wit="#国">見て</lem><rdg wit="#前">おもひて</rdg></app>い
                <lb/>たつらに心をうこかすかことし</phr>
-               <lb/><note type="仮名序古注" target="#kana6-2"><l resp="#遍昭"><phr n="6-4">あさみとりいとよりかけてしらつゆ
+               <lb/><note type="仮名序古注" target="#kana6-2"><l resp="#遍昭"><phr n="6-4" xml:id="kana6-4">あさみとりいとよりかけてしらつゆ
                <lb/>をたまにもぬける春のやなきか</phr></l>
-               <lb/><l resp="#遍昭"><phr n="6-5">はちすはのにこりにしまぬ心もて<app><lem wit="#国">なにかは</lem><rdg wit="#前">なとかは</rdg></app>つゆをたまとあさむく</phr></l><phr n="6-6">さかのにてむ
-               <lb/>まよりおちてよめる</phr><l resp="#遍昭"><phr n="6-7">名にめてゝおれる許そをみなへし我おちにきと人に
+               <lb/><l resp="#遍昭"><phr n="6-5" xml:id="kana6-5">はちすはのにこりにしまぬ心もて<app><lem wit="#国">なにかは</lem><rdg wit="#前">なとかは</rdg></app>つゆをたまとあさむく</phr></l><phr n="6-6" xml:id="kana6-6">さかのにてむ
+               <lb/>まよりおちてよめる</phr><l resp="#遍昭"><phr n="6-7" xml:id="kana6-7">名にめてゝおれる許そをみなへし我おちにきと人に
                <lb/>かた
                <lb/>るな</phr></l></note>
                <lb/><phr n="6-8" xml:id="kana6-8"><persName corresp="#在原業平">ありはらのなりひら</persName>はその心あまりてことは
-               <lb/>たらす</phr><phr n="6-9">しほめる花のいろなくてにほひのこれるか
+               <lb/>たらす</phr><phr n="6-9" xml:id="kana6-9">しほめる花のいろなくてにほひのこれるか
             <pb n="1-6r" facs="#p014"/>
-               <lb/>ことし</phr><note type="仮名序古注" target="#kana6-8"><l resp="#在原業平"><phr n="6-10">月やあらぬはるや昔の春ならぬわか身ひとつはもとの身にして</phr></l>
-               <lb/><l resp="#在原業平"><phr n="6-11">おほかたは月をもめてしこれそこのつもれは人のおいとなる物</phr></l>
-               <lb/><l resp="#在原業平"><phr n="6-12">ねぬる夜の夢をはかなみまとろめは
+               <lb/>ことし</phr><note type="仮名序古注" target="#kana6-8"><l resp="#在原業平"><phr n="6-10" xml:id="kana6-10">月やあらぬはるや昔の春ならぬわか身ひとつはもとの身にして</phr></l>
+               <lb/><l resp="#在原業平"><phr n="6-11" xml:id="kana6-11">おほかたは月をもめてしこれそこのつもれは人のおいとなる物</phr></l>
+               <lb/><l resp="#在原業平"><phr n="6-12" xml:id="kana6-12">ねぬる夜の夢をはかなみまとろめは
                <lb/>いやはかなにもなりまさるかな</phr></l></note><phr n="6-13" xml:id="kana6-13"><persName corresp="#文屋康秀">ふんやのやすひて</persName>は
-               <lb/>ことはゝたくみにてそのさま身におはす</phr><phr n="6-14">いはゝあき
+               <lb/>ことはゝたくみにてそのさま身におはす</phr><phr n="6-14" xml:id="kana6-14">いはゝあき
                <lb/>人のよきゝぬきたらむかことし</phr>
-               <lb/><note type="仮名序古注" target="#kana6-13"><l resp="#文屋康秀"><phr n="6-15">吹からにのへのくさ木のしほ
+               <lb/><note type="仮名序古注" target="#kana6-13"><l resp="#文屋康秀"><phr n="6-15" xml:id="kana6-15">吹からにのへのくさ木のしほ
                <lb/>るれはむへ山かせをあらしとい
-               <lb/>ふらむ</phr></l><phr n="6-16"><persName corresp="#仁明天皇">深草のみかと</persName>の御國忌に</phr><l resp="#文屋康秀"><phr n="6-17">草深き霞の
+               <lb/>ふらむ</phr></l><phr n="6-16" xml:id="kana6-16"><persName corresp="#仁明天皇">深草のみかと</persName>の御國忌に</phr><l resp="#文屋康秀"><phr n="6-17" xml:id="kana6-17">草深き霞の
                <lb/>谷にかけかくしてる日のくれしけふにやはあらぬ</phr></l></note><phr n="6-18" xml:id="kana6-18"><persName corresp="#喜撰法師"><app><lem wit="#国">宇治山</lem><rdg wit="#前">うち</rdg></app>の僧<app><lem wit="#国">きせ
                <lb/>ん</lem><rdg wit="#前"><ruby><rb>きせ</rb><rt>せき</rt></ruby></rdg></app></persName>はことはかすかにしてはしめをはりたしかな
-               <lb/>らす</phr><phr n="6-19">いはゝ秋の月を見るにあかつきのくもにあ
+               <lb/>らす</phr><phr n="6-19" xml:id="kana6-19">いはゝ秋の月を見るにあかつきのくもにあ
                <lb/>へるかことし</phr>
-               <lb/><note type="仮名序古注" target="#kana6-18"><l resp="#喜撰法師"><phr n="6-20">わかいほはみやこのたつみしかそすむ
+               <lb/><note type="仮名序古注" target="#kana6-18"><l resp="#喜撰法師"><phr n="6-20" xml:id="kana6-20">わかいほはみやこのたつみしかそすむ
                <lb/>よをうち山と人はいふなり</phr></l></note>
-               <lb/><phr n="6-21">よめるうた
+               <lb/><phr n="6-21" xml:id="kana6-21">よめるうた
                <lb/>おほくきこえねはかれこれをかよはしてよくし
                <lb/>らす</phr><phr n="6-22" xml:id="kana6-22"><persName corresp="#小野小町">をのゝこまち</persName>はいにしへの<persName corresp="#衣通姫">そとほりひめ</persName>の流な
-               <lb/>り</phr><phr n="6-23">あはれなるやうにてつよからす</phr><phr n="6-24">いはゝよき<app><lem wit="#国">をう
-               <lb/>な</lem><rdg wit="#前">を<ruby><rb>む</rb><rt>ウ</rt></ruby>な</rdg></app>のなやめる所あるにゝたり</phr><phr n="6-25">つよからぬはをうなの
+               <lb/>り</phr><phr n="6-23" xml:id="kana6-23">あはれなるやうにてつよからす</phr><phr n="6-24" xml:id="kana6-24">いはゝよき<app><lem wit="#国">をう
+               <lb/>な</lem><rdg wit="#前">を<ruby><rb>む</rb><rt>ウ</rt></ruby>な</rdg></app>のなやめる所あるにゝたり</phr><phr n="6-25" xml:id="kana6-25">つよからぬはをうなの
             <pb n="1-6v" facs="#p015"/>
-               <lb/>うたなれはなるへし</phr><note type="仮名序古注" target="#kana6-22"><l resp="#小野小町"><phr n="6-26">思つゝぬれはや人の見えつらむゆめとし
-               <lb/>りせはさめさらましを</phr></l><l resp="#小野小町"><phr n="6-27">いろ見えてうつろふ
-               <lb/>物は世中の人の心の花にそありける</phr></l><l resp="#小野小町"><phr n="6-28">わひぬれは身をうき草のねをたえて
-               <lb/>さそふ水あらはいなむとそ思</phr></l><phr n="6-29"><persName corresp="#衣通姫">そとほりひめ</persName>のうた</phr><l resp="#衣通姫"><phr n="6-30">わかせこかくへきよひなり
+               <lb/>うたなれはなるへし</phr><note type="仮名序古注" target="#kana6-22"><l resp="#小野小町"><phr n="6-26" xml:id="kana6-26">思つゝぬれはや人の見えつらむゆめとし
+               <lb/>りせはさめさらましを</phr></l><l resp="#小野小町"><phr n="6-27" xml:id="kana6-27">いろ見えてうつろふ
+               <lb/>物は世中の人の心の花にそありける</phr></l><l resp="#小野小町"><phr n="6-28" xml:id="kana6-28">わひぬれは身をうき草のねをたえて
+               <lb/>さそふ水あらはいなむとそ思</phr></l><phr n="6-29" xml:id="kana6-29"><persName corresp="#衣通姫">そとほりひめ</persName>のうた</phr><l resp="#衣通姫"><phr n="6-30" xml:id="kana6-30">わかせこかくへきよひなり
                <lb/>さゝかにのくものふるまひかね
                <lb/>てしるしも</phr></l></note>
                <lb/><phr n="6-31" xml:id="kana6-31"><persName corresp="#大友黒主">大伴のくろぬし</persName>はそのさ
-               <lb/>まいやし</phr><phr n="6-32">いはゝたきゝおへる山人の花のかけにや
-               <lb/>すめるかことし</phr><note type="仮名序古注" target="#kana6-31"><l resp="#大友黒主"><phr n="6-33">思いてゝこひしき時はゝつかりのなきてわたると人はしらすや</phr></l>
-               <lb/><l resp="#大友黒主"><phr n="6-34">鏡山いさ立よりて見てゆかむ年へぬる身は老やしぬると</phr></l></note>
-               <lb/><phr n="6-35">このほかの人〳〵その名きこゆる</phr><phr n="6-36">のへにおふるかつら
+               <lb/>まいやし</phr><phr n="6-32" xml:id="kana6-32">いはゝたきゝおへる山人の花のかけにや
+               <lb/>すめるかことし</phr><note type="仮名序古注" target="#kana6-31"><l resp="#大友黒主"><phr n="6-33" xml:id="kana6-33">思いてゝこひしき時はゝつかりのなきてわたると人はしらすや</phr></l>
+               <lb/><l resp="#大友黒主"><phr n="6-34" xml:id="kana6-34">鏡山いさ立よりて見てゆかむ年へぬる身は老やしぬると</phr></l></note>
+               <lb/><phr n="6-35" xml:id="kana6-35">このほかの人〳〵その名きこゆる</phr><phr n="6-36" xml:id="kana6-36">のへにおふるかつら
                <lb/>のはひゝろこりはやしにしけきこのはのことくに<app><lem wit="#国">お
-               <lb/>ほかれと</lem><rdg wit="#前">おほけれと</rdg></app></phr><phr n="6-37">うたとのみ思ひてそのさま<app><lem wit="#国">しらぬなるへし</lem><rdg wit="#前">しら<ruby><rb>す</rb><rt>ぬ</rt></ruby>なるへし</rdg></app></phr></p>
-               <lb/><p n="7"><phr n="7-1">かゝるにいま<persName corresp="#醍醐天皇"><app><lem wit="#国">すへらき</lem><rdg wit="#前">すへらきみ</rdg></app></persName>のあめの<app><lem wit="#国">した</lem><rdg wit="#前">したを</rdg></app>しろしめすこと
-               <lb/><date when="0905"><app><lem wit="#国">よつの時</lem><rdg wit="#前">よつの<ruby><rb>月</rb><rt>トキ</rt></ruby></rdg></app>こゝのかへり</date>になむなりぬる</phr><phr n="7-2">あまねきお
-               <lb/>ほむうつくしみのなみやしまのほかまてなかれ</phr><phr n="7-3">ひ
+               <lb/>ほかれと</lem><rdg wit="#前">おほけれと</rdg></app></phr><phr n="6-37" xml:id="kana6-37">うたとのみ思ひてそのさま<app><lem wit="#国">しらぬなるへし</lem><rdg wit="#前">しら<ruby><rb>す</rb><rt>ぬ</rt></ruby>なるへし</rdg></app></phr></p>
+               <lb/><p n="7"><phr n="7-1" xml:id="kana7-1">かゝるにいま<persName corresp="#醍醐天皇"><app><lem wit="#国">すへらき</lem><rdg wit="#前">すへらきみ</rdg></app></persName>のあめの<app><lem wit="#国">した</lem><rdg wit="#前">したを</rdg></app>しろしめすこと
+               <lb/><date when="0905"><app><lem wit="#国">よつの時</lem><rdg wit="#前">よつの<ruby><rb>月</rb><rt>トキ</rt></ruby></rdg></app>こゝのかへり</date>になむなりぬる</phr><phr n="7-2" xml:id="kana7-2">あまねきお
+               <lb/>ほむうつくしみのなみやしまのほかまてなかれ</phr><phr n="7-3" xml:id="kana7-3">ひ
                <lb/>ろきおほむめくみのかけつくは山のふもと<app><lem wit="#国">よりも</lem><rdg wit="#前">より</rdg></app>
             <pb n="1-7r" facs="#p015"/>
-               <lb/>しけく<app><lem wit="#国">おはしまして</lem><rdg wit="#前">おまし〳〵て</rdg></app></phr><phr n="7-4">よろつのまつりことをきこし
-               <lb/>めすいとまもろ〳〵のことをすてたまはぬあまりに</phr><phr n="7-5">いに
+               <lb/>しけく<app><lem wit="#国">おはしまして</lem><rdg wit="#前">おまし〳〵て</rdg></app></phr><phr n="7-4" xml:id="kana7-4">よろつのまつりことをきこし
+               <lb/>めすいとまもろ〳〵のことをすてたまはぬあまりに</phr><phr n="7-5" xml:id="kana7-5">いに
                <lb/>しへのことをもわすれしふりにし<app><lem wit="#国">ことをも</lem><rdg wit="#前">ことを</rdg></app>おこし
-               <lb/>たまふとて</phr><phr n="7-6">今も見そなはしのちの世にもつたは
-               <lb/>れとて</phr><phr n="7-7"><date when="0905">延喜五年四月十八日</date>に<persName corresp="#紀友則">大内記きのとものり</persName></phr>
-               <lb/><phr n="7-8"><persName corresp="#紀貫之">御書のところのあつかりきのつらゆき</persName></phr><phr n="7-9"><persName corresp="#凡河内躬恒">さきのかひの
-               <lb/><app><lem wit="#国">さう官</lem><rdg wit="#前">目</rdg></app><app><lem wit="#国">おふし</lem><rdg wit="#前"><ruby><rb>凡</rb><rt>オフシ</rt></ruby></rdg></app>かうちのみつね</persName></phr><phr n="7-10"><persName corresp="#壬生忠岑"><app><lem wit="#国">右衛門の府生</lem><rdg wit="#前">衛門のふさう</rdg></app>みふ
-               <lb/>のたゝみね</persName>らにおほせられて</phr><phr n="7-11">万えふしふに
+               <lb/>たまふとて</phr><phr n="7-6" xml:id="kana7-6">今も見そなはしのちの世にもつたは
+               <lb/>れとて</phr><phr n="7-7" xml:id="kana7-7"><date when="0905">延喜五年四月十八日</date>に<persName corresp="#紀友則">大内記きのとものり</persName></phr>
+               <lb/><phr n="7-8" xml:id="kana7-8"><persName corresp="#紀貫之">御書のところのあつかりきのつらゆき</persName></phr><phr n="7-9" xml:id="kana7-9"><persName corresp="#凡河内躬恒">さきのかひの
+               <lb/><app><lem wit="#国">さう官</lem><rdg wit="#前">目</rdg></app><app><lem wit="#国">おふし</lem><rdg wit="#前"><ruby><rb>凡</rb><rt>オフシ</rt></ruby></rdg></app>かうちのみつね</persName></phr><phr n="7-10" xml:id="kana7-10"><persName corresp="#壬生忠岑"><app><lem wit="#国">右衛門の府生</lem><rdg wit="#前">衛門のふさう</rdg></app>みふ
+               <lb/>のたゝみね</persName>らにおほせられて</phr><phr n="7-11" xml:id="kana7-11">万えふしふに
                <lb/>いらぬ<app><lem wit="#国">ふるきうたみつからのをも</lem><rdg wit="#前">うたともふるきみつからのをも</rdg></app><app><lem wit="#国">たてまつらしめ</lem><rdg wit="#前">たてまつらせ</rdg></app>
-               <lb/><app><lem wit="#国">たまひてなむ</lem><rdg wit="#前">たまひて</rdg></app></phr><phr n="7-12">それかなかにむめをかさすよりはし
+               <lb/><app><lem wit="#国">たまひてなむ</lem><rdg wit="#前">たまひて</rdg></app></phr><phr n="7-12" xml:id="kana7-12">それかなかにむめをかさすよりはし
                <lb/>めてほとゝきすをきゝもみちをおり雪を見るに
-               <lb/>いたるまて</phr><phr n="7-13">又つるかめにつけて<app><lem wit="#国">きみをおもひ人を
+               <lb/>いたるまて</phr><phr n="7-13" xml:id="kana7-13">又つるかめにつけて<app><lem wit="#国">きみをおもひ人を
             <pb n="1-7v" facs="#p016"/>
                <lb/>も</lem><rdg wit="#前">きみをおもひとんを</rdg></app>いはひ秋はき夏草を見てつまをこひあふさか
-               <lb/>山にいたりてたむけをいのり</phr><phr n="7-14">あるは春夏秋冬
+               <lb/>山にいたりてたむけをいのり</phr><phr n="7-14" xml:id="kana7-14">あるは春夏秋冬
                <lb/><app><lem wit="#国">にもいらぬ</lem><rdg wit="#前">ともいはぬ</rdg></app>くさ〳〵のうたをなむえらはせたまひけ
-               <lb/>る</phr><phr n="7-15">すへて千うたはたまきなつけてこきむわかしふといふ</phr>
-               <lb/><phr n="7-16">かくこのたひあつめえらはれて山した水のたえす
-               <lb/>はまのまさこの<app><lem wit="#国">かすおほく</lem><rdg wit="#前">おほく</rdg></app>つもりぬれは</phr><phr n="7-17">いまはあ
+               <lb/>る</phr><phr n="7-15" xml:id="kana7-15">すへて千うたはたまきなつけてこきむわかしふといふ</phr>
+               <lb/><phr n="7-16" xml:id="kana7-16">かくこのたひあつめえらはれて山した水のたえす
+               <lb/>はまのまさこの<app><lem wit="#国">かすおほく</lem><rdg wit="#前">おほく</rdg></app>つもりぬれは</phr><phr n="7-17" xml:id="kana7-17">いまはあ
                <lb/>すかゝはの<app><lem wit="#国">せになる</lem><rdg wit="#前">せんなる</rdg></app>うらみもきこえすさゝれいしの
-               <lb/>いはほとなるよろこひのみそあるへき</phr><phr n="7-18">それ<app><lem wit="#国">まくら
+               <lb/>いはほとなるよろこひのみそあるへき</phr><phr n="7-18" xml:id="kana7-18">それ<app><lem wit="#国">まくら
                <lb/>ことは</lem><rdg wit="#前">まくらことはに</rdg></app>春の花にほひすくなくしてむなしき名のみ
-               <lb/>秋のよのなかきを<app><lem wit="#国">かこてれは</lem><rdg wit="#前">か<ruby><rb>こ</rb><rt>ク</rt></ruby>てれは</rdg></app></phr><phr n="7-19">かつは人のみゝにおそり
-               <lb/>かつはうたの心にはちおもへと</phr><phr n="7-20">たなひくゝものたちゐ
-               <lb/>なくしかのおきふしは</phr><phr n="7-21"><persName corresp="#紀貫之">つらゆき</persName>らかこの世にお
+               <lb/>秋のよのなかきを<app><lem wit="#国">かこてれは</lem><rdg wit="#前">か<ruby><rb>こ</rb><rt>ク</rt></ruby>てれは</rdg></app></phr><phr n="7-19" xml:id="kana7-19">かつは人のみゝにおそり
+               <lb/>かつはうたの心にはちおもへと</phr><phr n="7-20" xml:id="kana7-20">たなひくゝものたちゐ
+               <lb/>なくしかのおきふしは</phr><phr n="7-21" xml:id="kana7-21"><persName corresp="#紀貫之">つらゆき</persName>らかこの世にお
             <pb n="1-8r" facs="#p016"/>
                <lb/>なしくむまれてこの事の時にあへるをなむよろ
-               <lb/>こひぬる</phr><phr n="7-22"><persName corresp="#柿本人麿">人まろ</persName>なくなりにたれと<app><lem wit="#国">哥のこととゝまれ
-               <lb/>るかな</lem><rdg wit="#前">うたのことゝまれるかな</rdg></app></phr><phr n="7-23">たとひ時うつり事さりたのしひかなしひ
-               <lb/>ゆきかふ<app><lem wit="#国">とも</lem><rdg wit="#前">とん</rdg></app>この哥のもしあるをや</phr><phr n="7-24">あをやきのいと
+               <lb/>こひぬる</phr><phr n="7-22" xml:id="kana7-22"><persName corresp="#柿本人麿">人まろ</persName>なくなりにたれと<app><lem wit="#国">哥のこととゝまれ
+               <lb/>るかな</lem><rdg wit="#前">うたのことゝまれるかな</rdg></app></phr><phr n="7-23" xml:id="kana7-23">たとひ時うつり事さりたのしひかなしひ
+               <lb/>ゆきかふ<app><lem wit="#国">とも</lem><rdg wit="#前">とん</rdg></app>この哥のもしあるをや</phr><phr n="7-24" xml:id="kana7-24">あをやきのいと
                <lb/>たえす松のはのちりうせすしてまさきのかつらなかく
-               <lb/>つたはりとりのあとひさしくとゝまれらは</phr><phr n="7-25">哥のさま
+               <lb/>つたはりとりのあとひさしくとゝまれらは</phr><phr n="7-25" xml:id="kana7-25">哥のさま
                <lb/>をしりことの心をえたらむ人はおほそらの月を見
                <lb/>るかことくにいにしへをあふきて今をこひさらめ
                <lb/>かも</phr></p></div>
@@ -3875,6 +3884,25 @@
                <lb/><l n="1111" xml:id="n1111" resp="#紀貫之"><seg>道しらは</seg><seg>つみにもゆかむ</seg><seg>住のえの</seg><seg>岸におふてふ</seg><seg>こひわすれくさ</seg></l></div></div></div>
       </body>
      <back>
+            <pb n="2-63r" facs="#p135"/>
+               <lb/><ab type="奥書" subtype="本奥書" xml:id="本奥書1" resp="#藤原定家">此集家々所稱雖説々多且任<persName corresp="#藤原俊成">師</persName>説
+               <lb/>又加了見為備後学之證本手自
+               <lb/>書之近代僻案之輩以書生之失錯
+               <lb/>稱有識之秘事可謂道之魔姓不可用
+               <lb/>之但如此用捨只可随其身之所好不
+               <lb/>可存自他之差別志同者可用之
+               <lb/><date when="1226">嘉禄二年四月九日</date><persName corresp="#藤原定家">戸部尚書</persName>判
+               <lb/><date when="1226">于時頽齢六十五</date>寧堪右筆哉</ab>
+            <pb n="2-63v" facs="#p136"/>
+               <lb/><ab type="奥書" subtype="本奥書" xml:id="本奥書2" resp="#藤原為家">此本付属<persName corresp="#藤原為相">大夫為相</persName>
+               <lb/><date when="1265">于時頽齢六十八</date><persName corresp="#藤原為家">桑門融覚</persName>判</ab>
+            <pb n="2-64r" facs="#p136"/>
+               <lb/><ab type="奥書" subtype="書写奥書" xml:id="書写奥書1" resp="#藤原為広">右集依<persName>前内府實<ruby><rb>―</rb><rt>望</rt></ruby>公</persName>懇望以家
+               <lb/>相傳<persName corresp="#藤原定家">京極中納言定家卿</persName>自筆本不改一
+               <lb/>字愚息<persName corresp="#藤原為和">為和</persName>令書写之尤可為證
+               <lb/>本者也
+               <lb/>于時<date when="1519">永正第十六天初夏</date>上辨目
+               <lb/><persName corresp="#藤原為広">桑門宗清</persName>（花押）</ab>
         <listPerson>
            <person xml:id="藤原定家" sex="1">
               <persName>藤原／定家</persName>
